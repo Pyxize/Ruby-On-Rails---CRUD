@@ -1,0 +1,16 @@
+<h2 class="center-align">Titre : <%= @book.title %></h2>
+
+<div class="container">
+<%= form_tag "/books/#{@book.id}", method: "patch" do %>
+ <input placeholder="Titre" name="title" id="title" type="text" class="validate" value="<%= @book.title %> "/>
+    <button class="btn waves-effect waves-light orange" type="submit" name="action">Modifier le livre
+  </button>
+<% end %>
+  <p><a href="/">Retourner à la liste des livres</a></p>
+
+<h3>Voulez-vous supprimer le livre ?</h3>
+<%= form_tag "/books/#{@book.id}", method: "delete" do %>
+  <button class="btn waves-effect waves-light waves-red red" type="submit" name="action">Supprimer
+  </button>
+<% end %>
+</div>

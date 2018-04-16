@@ -1,0 +1,23 @@
+<h1 class="center-align">Liste des livres</h1>
+<table class="container">
+        <thead>
+          <tr>
+              <th>Id</th>
+              <th>Titre</th>
+          </tr>
+        </thead>
+        <tbody>
+        <% @books.each do |book| %>
+          <tr>
+            <td><%= book.id %></td>
+            <td><a href="/books/<%= book.id %>"><%= book.title %></a></td>
+          </tr>
+          <% end %>
+      </table>
+<div style="margin-top: 50px;" class="container">
+<%= form_tag "/books", method: "post" do %>
+    <input placeholder="Titre" name="title" id="title" type="text" class="validate">
+ <button style="background-color: #27ae60;" class="btn waves-effect waves-light" type="submit" name="action">Ajouter
+  </button>
+<% end %>
+</div>
