@@ -27,15 +27,15 @@
     </pre>
     <p> A la suite de cette comande vous aurez ceci : </p>
     <pre>
-        <code>  => Booting Puma
-                => Rails 5.2.0 application starting in development 
-                => Run `rails server -h` for more startup options
-                Puma starting in single mode...
-                * Version 3.11.4 (ruby 2.3.3-p222), codename: Love Song
-                * Min threads: 5, max threads: 5
-                * Environment: development
-                * Listening on tcp://0.0.0.0:3000
-                Use Ctrl-C to stop
+<code>  => Booting Puma
+        => Rails 5.2.0 application starting in development 
+        => Run `rails server -h` for more startup options
+        Puma starting in single mode...
+        * Version 3.11.4 (ruby 2.3.3-p222), codename: Love Song
+        * Min threads: 5, max threads: 5
+        * Environment: development
+        * Listening on tcp://0.0.0.0:3000
+        Use Ctrl-C to stop
 </code>
     </pre>
     <p> Nous pouvons voir qu'il y a un serveur d'ouvrir sur le port 3000</p>
