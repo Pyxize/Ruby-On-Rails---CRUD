@@ -38,8 +38,18 @@
         Use Ctrl-C to stop
 </code>
     </pre>
-    <p> Nous pouvons voir qu'il y a un serveur d'ouvrir sur le port 3000</p>
+    <p> Nous pouvons voir qu'il y a un serveur d'ouvrert sur le port 3000</p>
     <p> Pour y acceder : localhost:3000
+</li>
+<li>
+    <p>Pour Créer un controller on fait la commande suivante : </p>
+    <pre>
+<code>
+    Rails g controller blog index
+</code>
+    </pre>
+    <p> "blog" correspond au nom du controller </p>
+    <p> "index" correspond au nom de la view </p>
 </li>
 </ol>
 
