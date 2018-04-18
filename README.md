@@ -51,7 +51,7 @@
     <p>Pour Créer un controller on fait la commande suivante : </p>
     <pre>
 <code>
-    Rails g controller blog index
+    $ Rails g controller blog index
 </code>
     </pre>
 <ul>
