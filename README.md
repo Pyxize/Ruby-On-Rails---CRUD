@@ -3,7 +3,7 @@
 
         $ rails new blog
 
-Le Bundler
+2. Le Bundler
 
 Le bundler va créer le Gemfile c'est dans se fichier qu'il y aura toutes
 les dépendances que vous installerez. Un Bundler est un gem.
@@ -11,8 +11,9 @@ les dépendances que vous installerez. Un Bundler est un gem.
 Voici la commande à faire : 
 
         $ bundle install
+        
 
-Ouvrir un serveur en local
+3) Ouvrir un serveur en local
 
 Ruby On Rails permet d'ouvrir un serveur en local que l'on va utilsé par la suite
 
